@@ -1,3 +1,8 @@
 <h1>Games#score</h1>
 <p>Find me in app/views/games/score.html.erb</p>
-<%= @score  %>
+
+<% if @valid === true && @english_word == true %>
+  <h2> Congrats, <span><%= @score.upcase %></span> is valid Enlish word!</h2>
+<% else %>
+  <h2> <span><%= @score.upcase %></span> is not valid word!</h2>
+<% end %>

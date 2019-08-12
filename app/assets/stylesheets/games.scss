@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 #letters {
   display: flex;
   width: 500px;
@@ -13,4 +14,30 @@
   background-color: rgb(52,152,220);
   color: white;
   padding: 20px;
+}
+
+input[type=text], select {
+  margin-left: 30px;
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100px;
+  background-color: rgb(52,152,220);
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+span {
+  color: red;
 }
